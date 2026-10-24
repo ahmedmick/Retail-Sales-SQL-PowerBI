@@ -1,10 +1,7 @@
 # Retail Sales Analysis: SQL & Power BI
 
 ## Business Problem
-An online retailer wants to understand its sales performance: 
-
-when it earns the most, which products drive revenue, and which customers are worth keeping. 
-
+An online retailer wants to understand its sales performance: when it earns the most, which products drive revenue, and which customers are worth keeping. 
 This project cleans and analyzes transaction records in SQL and presents the results in a Power BI dashboard.
 
 ## Questions
@@ -23,7 +20,7 @@ Online Retail II (UCI Machine Learning Repository): transactions of a UK-based o
 
 
 
-# Structure of Project:
+## Structure of Project
 
 ```
 Retail-Sales-SQL-PowerBI/
