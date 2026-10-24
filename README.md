@@ -1,7 +1,26 @@
-# Retail-Sales-SQL-PowerBI
-Analyzed sales records using SQL to identify top products and customer segments. 
+# Retail Sales Analysis: SQL & Power BI
 
-Built an interactive dashboard in Power BI to track revenue trends
+## Business Problem
+An online retailer wants to understand its sales performance: 
+
+when it earns the most, which products drive revenue, and which customers are worth keeping. 
+
+This project cleans and analyzes transaction records in SQL and presents the results in a Power BI dashboard.
+
+## Questions
+1. How does revenue change over time?
+2. Which products sell the most?
+3. Who are the most valuable customers?
+
+## Dataset
+Online Retail II (UCI Machine Learning Repository): transactions of a UK-based online retailer from December 2009 to December 2011.
+
+## Dashboard KPIs
+- Revenue
+- Orders
+- Customers
+- Average order value
+
 
 
 # Structure of Project:
