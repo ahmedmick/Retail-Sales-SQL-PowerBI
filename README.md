@@ -18,8 +18,6 @@ Online Retail II (UCI Machine Learning Repository): transactions of a UK-based o
 - Customers
 - Average order value
 
-
-
 ## Structure of Project
 
 ```
