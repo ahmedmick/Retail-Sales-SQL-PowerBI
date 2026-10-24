@@ -4,24 +4,20 @@ Analyzed sales records using SQL to identify top products and customer segments.
 Built an interactive dashboard in Power BI to track revenue trends
 
 
-# Structure of Folders and Files:
+# Structure of Project:
 
-Retail_Sales_Dashboard/
-
+```
+Retail-Sales-SQL-PowerBI/
 ├── data/
-
-│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── sales_data.csv
-
-├── sql/ 
-
-│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── revenue_trends.sql 
-
-│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── top_products.sql
-
-│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── rfm_analysis.sql 
-
+│   └── online_retail_II.csv
+├── sql/
+│   ├── 01_profile_data.sql
+│   ├── 02_clean_data.sql
+│   ├── 03_revenue_trends.sql
+│   ├── 04_top_products.sql
+│   └── 05_rfm_analysis.sql
 ├── powerbi/
-
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Retail_Dashboard.pbix
-    
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── my_dashboard.png
+│   ├── Dashboard.pbix
+│   └── my_dashboard.png
+└── README.md
+```
