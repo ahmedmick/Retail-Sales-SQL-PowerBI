@@ -1,0 +1,93 @@
+id,stockcode,description,rows_count,revenue,decision,reason
+1,TEST002,NULL,1,0,Exclude,test product
+2,C2,NULL,3,0,Exclude,carriage
+3,C3,NULL,1,0,Exclude,carriage
+4,DCGS0004,NULL,1,0,Exclude,"zero price, no description"
+5,DCGS0006,NULL,1,0,Exclude,"zero price, no description"
+6,DCGS0016,NULL,1,0,Exclude,"zero price, no description"
+7,DCGS0027,NULL,1,0,Exclude,"zero price, no description"
+8,DCGS0036,NULL,1,0,Exclude,"zero price, no description"
+9,DCGS0037,NULL,1,0,Exclude,"zero price, no description"
+10,DCGS0039,NULL,1,0,Exclude,"zero price, no description"
+11,DCGS0053,NULL,1,0,Exclude,"zero price, no description"
+12,DCGS0055,NULL,1,0,Exclude,"zero price, no description"
+13,DCGS0056,NULL,1,0,Exclude,"zero price, no description"
+14,DCGS0057,NULL,1,0,Exclude,"zero price, no description"
+15,DCGS0058,NULL,1,0,Exclude,"zero price, no description"
+16,DCGS0059,NULL,1,0,Exclude,"zero price, no description"
+17,DCGS0060,NULL,1,0,Exclude,"zero price, no description"
+18,DCGS0062,NULL,1,0,Exclude,"zero price, no description"
+19,DCGS0066N,NULL,2,0,Exclude,"zero price, no description"
+20,DCGS0066P,NULL,1,0,Exclude,"zero price, no description"
+21,DCGS0070,NULL,1,0,Exclude,"zero price, no description"
+22,DCGS0071,NULL,1,0,Exclude,"zero price, no description"
+23,DCGS0072,NULL,1,0,Exclude,"zero price, no description"
+24,DCGS0074,NULL,1,0,Exclude,"zero price, no description"
+25,DCGSLBOY,NULL,1,0,Exclude,"zero price, no description"
+26,DCGSLGIRL,NULL,1,0,Exclude,"zero price, no description"
+27,DCGSSBOY,NULL,1,0,Exclude,"zero price, no description"
+28,DCGSSGIRL,NULL,1,0,Exclude,"zero price, no description"
+29,DOT,NULL,2,0,Exclude,"zero price, no description"
+30,GIFT,NULL,1,0,Exclude,zero price
+31,gift_0001_10,NULL,2,0,Exclude,zero price
+32,gift_0001_20,NULL,2,0,Exclude,zero price
+33,gift_0001_30,NULL,5,0,Exclude,zero price
+34,gift_0001_40,NULL,2,0,Exclude,zero price
+35,gift_0001_50,NULL,2,0,Exclude,zero price
+36,gift_0001_60,NULL,2,0,Exclude,zero price
+37,gift_0001_70,NULL,2,0,Exclude,zero price
+38,gift_0001_80,Dotcomgiftshop Gift Voucher Â£80.00,2,0,Exclude,zero price
+39,gift_0001_80,NULL,2,0,Exclude,zero price
+40,gift_0001_90,NULL,2,0,Exclude,zero price
+41,POST,NULL,7,0,Exclude,postage
+42,SP1002,NULL,1,0,Exclude,"zero price, no description"
+43,DOT,DOTCOM POSTAGE,1444,322647.47,Exclude,postage
+44,POST,POSTAGE,2115,112341,Exclude,postage
+45,C2,CARRIAGE,279,13386,Exclude,carriage
+46,ADJUST,Adjustment by john on 26/01/2010 17,26,5762.96,Exclude,adjustment
+47,ADJUST,Adjustment by john on 26/01/2010 16,38,1803.33,Exclude,adjustment
+48,ADJUST2,Adjustment by Peter on Jun 25 2010 ,3,731.05,Exclude,adjustment
+49,TEST001,This is a test product.,15,202.5,Exclude,test product
+50,m,Manual,5,15.05,Exclude,manual
+51,TEST002,This is a test product.,1,1,Exclude,test product
+52,ADJUST,Adjustment by Peter on 24/05/2010 1,3,-731.05,Exclude,adjustment
+53,BANK CHARGES, Bank Charges,6,-2068.96,Exclude,charges
+54,S,SAMPLES,104,-6065.8,Exclude,"samples, not sales"
+55,CRUK,CRUK Commission,16,-7933.43,Exclude,charges
+56,D,Discount,177,-13484.54,Exclude,discount
+57,BANK CHARGES,Bank Charges,96,-33493.67,Exclude,charges
+58,M,Manual,1421,-82796.32,Exclude,manual
+59,B,Adjust bad debt,6,-147614.08,Exclude,accounting adjustment
+60,AMAZONFEE,AMAZON FEE,43,-260763.58,Exclude,charges
+61,DCGS0067,ebay,1,0,Exclude,"internal note, price 0"
+62,gift_0001_20,to push order througha s stock was ,1,0,Exclude,"internal note, price 0"
+63,DCGSSGIRL,update,1,0,Exclude,"internal note, price 0"
+64,DCGS0068,ebay,1,0,Exclude,"internal note, price 0"
+65,DCGS0069,ebay,1,0,Exclude,"internal note, price 0"
+66,DCGSSBOY,update,1,0,Exclude,"internal note, price 0"
+67,DCGS0003,ebay,1,0,Exclude,"internal note, price 0"
+68,DCGS0073,ebay,1,0,Exclude,"internal note, price 0"
+69,PADS,PADS TO MATCH ALL CUSHIONS,19,-36.6,Keep,"real product, note: revenue is negative"
+70,gift_0001_30,Dotcomgiftshop Gift Voucher Â£30.00,24,610.09,Keep,"real sale of vouchers, counted as revenue"
+71,gift_0001_20,Dotcomgiftshop Gift Voucher Â£20.00,26,471.06,Keep,"real sale of vouchers, counted as revenue"
+72,gift_0001_50,Dotcomgiftshop Gift Voucher Â£50.00,6,253.59,Keep,"real sale of vouchers, counted as revenue"
+73,gift_0001_40,Dotcomgiftshop Gift Voucher Â£40.00,5,166.09,Keep,"real sale of vouchers, counted as revenue"
+74,gift_0001_10,Dotcomgiftshop Gift Voucher Â£10.00,14,126.21,Keep,"real sale of vouchers, counted as revenue"
+75,gift_0001_70,Dotcomgiftshop Gift Voucher Â£70.00,1,59.57,Keep,"real sale of vouchers, counted as revenue"
+76,DCGSSGIRL,GIRLS PARTY BAG,23,295.63,Keep,real product
+77,DCGS0076,SUNJAR LED NIGHT NIGHT LIGHT,15,292.09,Keep,real product
+78,DCGSSBOY,BOYS PARTY BAG,21,251.35,Keep,real product
+79,DCGS0069,OOH LA LA DOGS COLLAR,5,80.31,Keep,real product
+80,DCGS0004,HAYNES CAMPER SHOULDER BAG,4,67.94,Keep,real product
+81,DCGS0058,MISO PRETTY  GUM,30,34.82,Keep,real product
+82,DCGS0003,BOXED GLASS ASHTRAY,13,32.59,Keep,real product
+83,DCGS0070,CAMOUFLAGE DOG COLLAR,2,25.44,Keep,real product
+84,DCGS0072,CAT CAMOUFLAGUE COLLAR,3,20.68,Keep,real product
+85,DCGS0066N,NAVY CUDDLES DOG HOODIE,2,17.3,Keep,real product
+86,DCGS0068,DOGS NIGHT COLLAR,2,17.12,Keep,real product
+87,SP1002,KID'S CHALKBOARD/EASEL,2,14.75,Keep,real product
+88,DCGS0075,CAMOUFLAGUE DOG LEAD,1,12.72,Keep,real product
+89,DCGS0037,KEY-RING CORKSCREW,1,12.72,Keep,real product
+90,DCGS0041,HAYNES MINI-COOPER PLAYING CARDS,1,5.06,Keep,real product
+91,DCGS0044,HANDZ-OFF CAR FRESHENER,1,2.57,Keep,real product
+92,DCGS0062,ROAD-RAGE CAR FRESHENER,1,2.51,Keep,real product
