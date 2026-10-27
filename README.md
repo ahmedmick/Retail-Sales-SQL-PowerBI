@@ -24,6 +24,8 @@ Online Retail II (UCI Machine Learning Repository): transactions of a UK-based o
 Retail-Sales-SQL-PowerBI/
 ├── data/
 │   └── online_retail_II.csv
+├── docs
+|   └── non_products_decisions.csv
 ├── sql/
 │   ├── 01_profile_data.sql
 │   ├── 02_clean_data.sql
