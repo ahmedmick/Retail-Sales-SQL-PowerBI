@@ -242,6 +242,6 @@ Open for the cleaning step:
   check what they are before deciding.
 - Clean customerid (remove the trailing ".0").
 - Final cleaning rules: price > 0, excluded stock codes (non-standard codes decided
-  in docs/non_product_decisions.csv), keep cancellations (net revenue).
+  in docs/non_products_decisions.csv), keep cancellations (net revenue).
 */
 
