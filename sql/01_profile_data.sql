@@ -31,11 +31,11 @@ WHERE table_name = 'sales_data';
 |   "column_name"    :   "column_name"     :         "data_type"            |
 | (Original Dataset) : ( Kaggle Version )  :                                |
  ---------------------------------------------------------------------------
-|    "UnitPrice"     :      "price"		:       "numeric (10, 2)"        |
-|    "Quantity"      :     "quantity"	    :          "integer"             |
+|    "UnitPrice"     :      "price"		   :       "numeric (10, 2)"        |
+|    "Quantity"      :     "quantity"	   :          "integer"             |
 |   "InvoiceDate"    :    "invoicedate"    :  "timestamp without time zone" |
 |    "CustomerID"    :    "customerid"     :     "character varying (20)"   |
-|    "InvoiceNo"     :     "invoice"	    :     "character varying (20)"   |
+|    "InvoiceNo"     :     "invoice"	   :     "character varying (20)"   |
 |     "Country"      :     "country"       :     "character varying (50)"   |
 |    "StockCode"     :    "stockcode"      :     "character varying (20)"   |
 |   "Description"    :   "description"     :     "character varying (255)"  |
