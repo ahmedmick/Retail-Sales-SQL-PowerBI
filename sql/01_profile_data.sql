@@ -183,7 +183,7 @@ ORDER BY suggested_decision, revenue DESC;
 
 /*
 Decisions for all 92 non-standard stock codes (keep / exclude and the reason
-for each) are in docs/non_product_decisions.csv.
+for each) are in docs/non_products_decisions.csv.
 Notes:
 - 19 stock codes are shared between real products and zero-price junk rows,
   so these are removed with a price > 0 filter, not by stock code.
