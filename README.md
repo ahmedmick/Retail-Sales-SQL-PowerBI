@@ -33,7 +33,7 @@ was created in `sql/02_clean_data.sql`.
 
 Decisions made:
 - Cancelled invoices were kept, so revenue is net of cancellations.
-- Rows with a missing customer ID (22.8%) were kept, and are excluded only from
+- Rows with a missing customer ID (22.8% of raw rows) were kept, and are excluded only from
   the customer analysis.
 - The 92 non-standard stock codes were reviewed one by one. The decisions and
   reasons are in `docs/non_products_decisions.csv`.
@@ -47,8 +47,8 @@ Decisions made:
 ## Project Status
 Data profiling and cleaning are complete. Revenue trends, top products,
 customer segmentation (RFM), and the Power BI dashboard are in progress.
-## Structure of Project
 
+## Structure of Project
 ```
 Retail-Sales-SQL-PowerBI/
 ├── data/
@@ -62,7 +62,7 @@ Retail-Sales-SQL-PowerBI/
 │   ├── 04_top_products.sql (in progress)
 │   └── 05_rfm_analysis.sql (in progress)
 ├── powerbi/
-│   ├── Dashboard.pbix
-│   └── my_dashboard.png
+│   ├── Dashboard.pbix (in progress)
+│   └── my_dashboard.png (in progress)
 └── README.md
 ```
