@@ -14,7 +14,7 @@ Online Retail II (UCI Machine Learning Repository): transactions of a UK-based
 online retailer from December 2009 to December 2011. The Kaggle copy of the
 dataset was used.
 - 1,067,371 rows, 8 columns
-- 5,942 customers, 43 countries
+- 5,942 customers (5,875 after cleaning), 43 countries
 
 ## Tools
 PostgreSQL (pgAdmin), Power BI
