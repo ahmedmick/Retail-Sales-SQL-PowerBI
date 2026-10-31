@@ -236,12 +236,12 @@ Findings that affect cleaning:
 */
 
 /*
-Open for the cleaning step:
-- Duplicates (32,909 groups): decide whether to remove all or only exact repeats.
-- About 3,456 rows have quantity <= 0 but are not cancellations (22,950 - 19,494);
-  check what they are before deciding.
-- Clean customerid (remove the trailing ".0").
-- Final cleaning rules: price > 0, excluded stock codes (non-standard codes decided
-  in docs/non_products_decisions.csv), keep cancellations (net revenue).
+Resolved in 02_clean_data.sql:
+- Duplicates: exact duplicates removed with SELECT DISTINCT (34,035 rows).
+- Rows with quantity <= 0 that are not cancellations: 0 remain after cleaning
+  (all were already removed by the price and stock code filters).
+- customerid: trailing ".0" removed.
+- Final rules applied: price > 0, excluded non-product stock codes
+  (decisions in docs/non_products_decisions.csv), cancellations kept (net revenue).
 */
 
